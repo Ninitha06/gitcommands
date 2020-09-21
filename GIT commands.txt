@@ -1,0 +1,60 @@
+To check version
+git --version
+
+To configure Git username and email
+git config --global user.name "Ninitha"
+git config --global user.email "dsfdf@gdgdfg.com"
+
+pwd (Present working directory)
+ls(to list all the files and folders of the present directory)
+cd(change directory - to move to any other location)
+cd c:/ninitha
+mkdir [folder name] - to create new folder
+
+
+to bring the code to system from github
+git clone [repository link]
+Make any changes..Git knows about it once u have cloned it.
+
+git status - to check the files that are changed.
+
+To add the file to staging
+git add <filename>
+git commit -m "<message>"
+
+Now that we have made some
+changes into our code, we can push
+this code directly to our remote github
+repository.
+For this, we have to create an empty
+remote Github Repository.
+Create an empty remote GitHub
+repository.
+Note: DO NOT INCLUDE A
+README.md file.
+
+Now we need to associate the
+working directory on our git bash shell
+to this remote repository.
+We do this using 'git remote add'
+command.
+git remote add <remote_name>
+<remote_github_url>
+You can use any name for the
+<remote_name>. You need to use the
+url of the github repository you just
+created.
+
+
+We want to push these files and
+changes to our remote repository we
+just created.
+git push -u <remote_name>
+(-u stands for username which is
+promoted by this command)
+
+You can see all the commits ever
+made on this repository by typing the
+command "git log"
+
+
