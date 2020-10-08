@@ -8,7 +8,7 @@ git config --global user.email "dsfdf@gdgdfg.com"
 pwd (Present working directory)
 ls(to list all the files and folders of the present directory)
 cd(change directory - to move to any other location)
-cd c:/ninitha
+cd /c/ninitha
 mkdir [folder name] - to create new folder
 
 
