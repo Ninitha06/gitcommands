@@ -2,15 +2,19 @@
 2. Open Git bash, go to the folder in which u want using cd command
 cd /c/whitehat
 3. git clone <empty repository link from github>
+example : git clone https://github.com/xxxxx/test.git
 4. Go to the new empty folder created
 cd test
-5. Create your md files
-6. git status
+5. Create your md files asked in project.
+6. git status (to see the new files created)
 7. git add <filenames of the ones that you have created>
+example : git add 2232.md 4444.md
 8. git commit -m <Some message in double quotation marks>
 Example : git commit -m "P26"
 9. git remote add <remote name> <remote url>
 <remote name> - any name
 <remote url> - the empty repository link that you created in github.
+Example : git remote add sample https://github.com/xxxxx/test.git
 10. git push -u <remote name that u gave in the above step>
+Example : git push -u sample
 11. Done :) share url to dashboard.
