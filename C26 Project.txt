@@ -17,4 +17,5 @@ Example : git commit -m "P26"
 Example : git remote add sample https://github.com/xxxxx/test.git
 10. git push -u <remote name that u gave in the above step>
 Example : git push -u sample
+It will prompt for Github user name and password/Github user authentication in a new tab...Do it and then it will upload to Github automatically..
 11. Done :) share url to dashboard.
