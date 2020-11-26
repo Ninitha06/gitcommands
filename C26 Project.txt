@@ -1,7 +1,7 @@
 1. Create an empty repository in github website.(example - test)
 2. Open Git bash, go to the folder in which u want using cd command
 cd /c/whitehat
-3. git clone <empty repository link from github>
+3. git clone <empty repository link from github>  - https/ssh url of the repository..
 example : git clone https://github.com/xxxxx/test.git
 4. Go to the new empty folder created
 cd test
